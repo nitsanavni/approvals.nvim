@@ -80,6 +80,9 @@ local function open_diff(received_path, approved_path)
   vim.cmd('edit ' .. received_path)
   vim.cmd('vsplit ' .. approved_path)
   vim.cmd 'windo diffthis'
+  
+  -- Focus on the left side (received)
+  vim.cmd('wincmd h')
 end
 
 -- Main action
