@@ -1,0 +1,3 @@
+- [ ] initial focus on received (left) side 
+- [ ] respect shebangs
+- [ ] unlink received on match
