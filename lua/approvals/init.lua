@@ -76,7 +76,9 @@ end
 
 -- Function to open diff view
 local function open_diff(received_path, approved_path)
-  -- Open received file
+  -- Open received file in a new tab
+  vim.cmd('tabnew')
+  -- Open vertical split for received and approved files
   vim.cmd('edit ' .. received_path)
   vim.cmd('vsplit ' .. approved_path)
   vim.cmd 'windo diffthis'

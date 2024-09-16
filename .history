@@ -4,3 +4,14 @@
 +
 +when opeining the diff:
 +focus on left side (received)
+
+# 2024-09-16 22:24:37.762362
++@lua/approvals/init.lua
++
++open the diff in a new tab please
+
+# 2024-09-16 22:25:54.434724
++@lua/approvals/init.lua
++
++open the diff in a new tab please
++keep them in a vertical diff split in this new tab
